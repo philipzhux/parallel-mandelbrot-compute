@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/backends/imgui_impl_opengl2.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends/imgui_impl_opengl2.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends/imgui_impl_opengl2.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/backends/imgui_impl_sdl.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends/imgui_impl_sdl.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends/imgui_impl_sdl.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/imgui.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/imgui_demo.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_demo.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/imgui_draw.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_draw.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/imgui_tables.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_tables.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/imgui_widgets.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_widgets.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/misc/cpp/imgui_stdlib.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/cpp/imgui_stdlib.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/cpp/imgui_stdlib.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/misc/fonts/binary_to_compressed_c.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/binary_to_compressed_c.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/binary_to_compressed_c.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++2a -o CMakeFiles/core.dir/imgui/misc/freetype/imgui_freetype.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/freetype/imgui_freetype.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/freetype/imgui_freetype.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DFONT_PATH=\\\"/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/DroidSans.ttf\\\" -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/ms_pthread.dir/src/graphic.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/src/graphic.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/src/graphic.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DFONT_PATH=\\\"/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/DroidSans.ttf\\\" -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/ms_pthread.dir/src/pthread.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/src/pthread.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/src/pthread.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DFONT_PATH=\\\"/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/DroidSans.ttf\\\" -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/ms_mpi.dir/src/graphic.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/src/graphic.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/src/graphic.cpp"
+},
+{
+  "directory": "/Users/philip/dev/cheung_course/csc4005/proj_2/build",
+  "command": "/usr/bin/clang++ -DFONT_PATH=\\\"/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/misc/fonts/DroidSans.ttf\\\" -DImDrawIdx=unsigned -I/Users/philip/dev/cheung_course/csc4005/proj_2/include -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui -I/Users/philip/dev/cheung_course/csc4005/proj_2/imgui/backends -I/usr/local/Cellar/open-mpi/4.1.1_2/include -isystem /usr/local/Cellar/sdl2/2.0.16/include/SDL2 -isystem /usr/local/include/freetype2 -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Werror -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/ms_mpi.dir/src/mpi.cpp.o -c /Users/philip/dev/cheung_course/csc4005/proj_2/src/mpi.cpp",
+  "file": "/Users/philip/dev/cheung_course/csc4005/proj_2/src/mpi.cpp"
+}
+]

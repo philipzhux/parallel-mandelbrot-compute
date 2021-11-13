@@ -1,0 +1,5 @@
+/Users/philip/dev/cheung_course/csc4005/proj_2/build/CMakeFiles/rebuild_cache.dir
+/Users/philip/dev/cheung_course/csc4005/proj_2/build/CMakeFiles/edit_cache.dir
+/Users/philip/dev/cheung_course/csc4005/proj_2/build/CMakeFiles/ms_pthread.dir
+/Users/philip/dev/cheung_course/csc4005/proj_2/build/CMakeFiles/ms_mpi.dir
+/Users/philip/dev/cheung_course/csc4005/proj_2/build/CMakeFiles/core.dir
