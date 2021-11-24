@@ -127,14 +127,14 @@ An illustration of the staic scheduling approach is showned as below:
 
 ![fg1](https://i.imgur.com/qNXP9J7.png)
 
-<figcaption>Figure 1: MPI Staic Scheduling</figcaption>
+
 </figure>
 </td>
 <td style ="border: none;">
 <figure align="center"  style="width: 90%;">
 
 ![fg2](https://i.imgur.com/PQUi8hW.png)
-<figcaption>Figure 2: Pthread Staic Scheduling</figcaption>
+
 </figure>
 </td>
 </tr>
@@ -146,13 +146,13 @@ As for the dynamic scheduling approach, the design process become a little bit m
 <figure align="center"  style="width: 100%;">
 
 ![fg3](https://i.imgur.com/22xH7eh.png)
-<figcaption>Figure 3: MPI Dynamic Scheduling</figcaption>
+
 </figure>
 
 <figure align="center"  style="width: 100%;">
 
 ![fg4](https://i.imgur.com/ixnjU61.png)
-<figcaption>Figure 4: Pthread Dynamic Scheduling</figcaption>
+
 </figure>
 
 Multiple tests are conducted on different core numbers in **[1, 2, 4, 8, 16, 24, 32]** using **i) MPI Static Scheduling**, **ii) Pthread Static Scheduling**, **iii) MPI_Dynamic Scheduling**, **iv) Pthread_Dynamic Scheduling** with image sizes in **[400, 800, 1600, 2400, 3200, 4800, 6400]** repectively for performance analysis and comparison purposes.
@@ -338,14 +338,12 @@ Shown below are the illustrations of the MPI and Pthread speedup, with x axis be
 
 ![mpi_su_overall](https://i.imgur.com/yyGp1BG.png)
 
-<figcaption>Figure 7: Overall Speedup Attributes of MPI (Dynamic)</figcaption>
 </figure>
 
 
 <figure align="center">
 
 ![pthread_su_overall](https://i.imgur.com/NMPoZjj.png)
-<figcaption>Figure 8: Overall Speedup Attributes of Ptrhead (Dynamic)</figcaption>
 </figure>
 
 
@@ -360,7 +358,7 @@ By observation, the speedup of the Pthread version outperforms the MPI version b
 
 ![mpi_vs_pthread](https://i.imgur.com/5VuYP50.png)
 
-  <figcaption>Figure 9: MPI Speedup versus Pthread Speedup (Dynamic)</figcaption>
+
   </figure>
 
 The potential reason behind the gap of MPI version and Pthread version may lies in the effciency gap between memory access and message passing. As the threads in the pthread version has uniform, shared access to the memory and has no need to pass message, the communication time for message passing could be saved. Such interpretation is consistent with the fact that the gap grows as number of cores grows, because the more the cores (processes), the more message passing and communication are involved in the MPI program, thereby enlarging the gap.
@@ -374,7 +372,7 @@ However, in most cases the dynamic scheduling methods far outperforms the static
 
 ![mpi_static_vs_dyn](https://i.imgur.com/kcS6IHw.png)
 
-  <figcaption>Figure 10: Dynamic Scheduling versus Static Scheduling (MPI)</figcaption>
+
   </figure>
 
 The the case of Pthread program, the dynamic scheduling method performs better all the time, possibly because the overhead of dynamic scheduling in pthread program is negligible because scheduling is done by lock competition but not the master:
@@ -383,7 +381,7 @@ The the case of Pthread program, the dynamic scheduling method performs better a
 
 ![pthread_static_vs_dyn](https://i.imgur.com/0usdD1c.png)
 
-  <figcaption>Figure 11: Dynamic Scheduling versus Static Scheduling (Pthread)</figcaption>
+
   </figure>
 
 To further explore the benifits of dynamic sheduling, the running time of slave threads are profiled both in dynamic case and static case:
