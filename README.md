@@ -1,7 +1,7 @@
 
-# CSC4005 - Project 2 **Report**
+# Parallel Mandelbrot Set Computation 
 ## Table of Contents
-- [CSC4005 - Project 2 **Report**](#csc4005---project-2-report)
+- [Parallel Mandelbrot Set Computation](#parallel-mandelbrot-set-computation)
   - [Table of Contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
     - [1.1 Project abstact](#11-project-abstact)
@@ -125,30 +125,15 @@ An illustration of the staic scheduling approach is showned as below:
 <td style ="border: none;">
 <figure align="center" style="width: 90%;">
 
-```mermaid
-graph TD;
+![fg1](https://i.imgur.com/qNXP9J7.png)
 
-    A["Construct Sequential Version"]-->B["Partition the Pixels into Parts"];
-    B-->C["Use MPI to broadcast parameters"];
-    C-->D["Local Iterations"];
-    D--"WHEN ITERATIONS FINISH"-->F["Gather All Local Iterations time to Construct the Final Result"];
-    F-->H["Performance Analysis by Testing Different Core# and Data Size"];
-```
 <figcaption>Figure 1: MPI Staic Scheduling</figcaption>
 </figure>
 </td>
 <td style ="border: none;">
 <figure align="center"  style="width: 90%;">
 
-```mermaid
-graph TD;
-
-    A["Construct Sequential Version"]-->B["Partition the Pixels into Parts"];
-    B-->C["Create Threads and Pass Parameters"];
-    C-->D["Local Iterations"];
-    D--"WHEN ITERATIONS FINISH"-->F["Store Local Iteration time to Shared Memory"];
-    F-->H["Performance Analysis by Testing Different Core# and Data Size"];
-```
+![fg2](https://i.imgur.com/PQUi8hW.png)
 <figcaption>Figure 2: Pthread Staic Scheduling</figcaption>
 </figure>
 </td>
@@ -160,39 +145,13 @@ As for the dynamic scheduling approach, the design process become a little bit m
 
 <figure align="center"  style="width: 100%;">
 
-```mermaid
-graph TD;
-
-    D["Slaves: Rank 1,2, .., N"];
-    C["Master Broadcasts Parameters thru MPI"];
-    C--"Start with initial iteration"-->D;
-    E["Master Store Single Result"];
-    D--"Send local result"-->E;
-    E--"Send new iteration task"-->D;
-    F["END"];
-    D--"Termination: received row num > size"-->F;
-    E--"Termination: all rows result received"-->F;
-    
-```
+![fg3](https://i.imgur.com/22xH7eh.png)
 <figcaption>Figure 3: MPI Dynamic Scheduling</figcaption>
 </figure>
 
 <figure align="center"  style="width: 100%;">
 
-```mermaid
-graph TD;
-
-  A["Main thread create threads and pass parameters"];
-  B["Threads competing for next row"];
-  C["Threads conduct iteration on local_row"];
-  D["Threads put results to right place on shared memory"];
-  F["END"];
-  A--"Mutex Lock"-->B;
-  B--"local_row = curr_row++; Mutex Unlock"-->C;
-  C--"Upon completion"-->D;
-  D--"Again, Mutex Lock"-->B;
-  D--"Termination: when curr_row==size-1"-->F
-```
+![fg4](https://i.imgur.com/ixnjU61.png)
 <figcaption>Figure 4: Pthread Dynamic Scheduling</figcaption>
 </figure>
 
